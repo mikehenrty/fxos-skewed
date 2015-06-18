@@ -1,0 +1,18 @@
+{
+  "name": "Skewed",
+  "description": "Hey, what's wrong with my screen?",
+  "developer": {
+    "name": "David Flanagan"
+  },
+  "role": "addon",
+  "type": "certified",
+  "package_path": "dist/package.zip",
+  "customizations": [{
+    "filter": "system.gaiamobile.org",
+    "css": ["skewed.css"],
+    "scripts": []
+  }],
+  "icons": {
+    "60": "/style/icons/60.png"
+  }
+}
